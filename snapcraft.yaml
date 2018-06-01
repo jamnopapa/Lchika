@@ -12,7 +12,7 @@ parts:
     plugin: dump
 
 apps:
-    gpiotest:
-        command: gpiotest
+    lchika:
+        command: lchika
         plugs:
         - gpio
