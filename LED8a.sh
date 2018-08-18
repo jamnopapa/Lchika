@@ -1,8 +1,6 @@
 #!/bin/sh
 
-dir="none"
-value=-1
-gpio=-1
+
 
 set_dir() {
 for i in 0 1 2 3 4 5 6 7
@@ -12,7 +10,7 @@ echo out > /sys/class/gpio/gpio33$i/direction
 done
 }
 
-set_value() {
+led_onoff() {
 while [ true ];
 do
 for i in 0 1 2 3 4 5 6 7
@@ -30,3 +28,5 @@ sleep 0.5
 done
 }
 
+set_dir()
+led_onoff()
