@@ -26,8 +26,6 @@ while [ true ];
   done
 }
 
-set_dir1
-led_onoff1
 
 
 dir="none"
