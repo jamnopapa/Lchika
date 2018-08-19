@@ -25,6 +25,6 @@ while [ true ];
       sleep 0.5
   done
 }
-
+echo "set gpio"
 set_dir
 led_onoff
