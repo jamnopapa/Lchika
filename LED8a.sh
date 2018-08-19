@@ -26,5 +26,5 @@ while [ true ];
   done
 }
 
-set_dir()
-led_onoff()
+set_dir
+led_onoff
