@@ -1,15 +1,5 @@
 #!/bin/bash
 
-set_dir1() {
-for i in 0 1 2 3 4 5 6 7
-  do
-    echo 33$i > /sys/class/gpio/export
-    echo out > /sys/class/gpio/gpio33$i/direction
-  done
-}
-
-
-
 
 dir="none"
 value=-1
